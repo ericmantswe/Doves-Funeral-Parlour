@@ -1,0 +1,420 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3f6f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+header {
+  background:whitesmoke ; 
+  padding: 0.1rem 0;
+  box-shadow: 1rem 1rem 1rem rgba(53, 53, 53, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Doves-nav-logo{
+  max-width: 5rem;
+  border-radius: 50%;
+  border-top: 0.1rem solid rgba(255, 255, 255, 0.5);
+  border-left: 0.1rem solid rgba(255, 255, 255, 0.5);
+  transition: all 0.5s;
+  
+}
+
+.Doves-nav-logo:hover{
+  transform: scale(1.2);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  background-color: #ccc;
+  padding: 0.3rem;
+  border-radius: 5rem;
+}
+
+nav ul li a {
+  color: #26323f;
+  text-decoration: none;
+  font-weight: bold;
+  padding:0.3rem;
+  transition: all 0.4s;
+  font-size: larger;
+}
+
+nav ul li a:hover{
+  background-color: #0cdb69;
+  border-radius: 60rem;
+  color:white;
+  
+}
+
+.active-tab{
+  background-color: #01272e;
+  border-radius: 60rem;
+  color:white;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/*main*/
+
+/* ========== ROOT VARIABLES ========== */
+:root {
+  --primary-color: #3c5a7c;
+  --text-color: #333333;
+  --bg-color: #f3f6f7;
+  --heading-font: 'Segoe UI', sans-serif;
+  --body-font: 'Segoe UI', sans-serif;
+  --max-width: 72rem;
+}
+
+.container {
+  max-width: 1000px;
+  margin:0 auto;
+  padding: 20px;
+}
+
+.Our-services{
+  margin:0.1rem;
+}
+
+.Our-services .container h1 {
+  font-family: var(--heading-font);
+  font-size: 2.6rem;
+  color: #2e2e2e;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.Our-services .container hr {
+  width: 10rem;
+  height: 0.3rem;
+  background: var(--primary-color);
+  border: none;
+  margin-bottom: 2rem;
+}
+
+/*Black DOVE STYLES*/
+.funeral-cover {
+  background-color: #3c5a7c70; 
+  border-radius: 1rem;
+  margin-left:5rem;
+  transition:all 0.5s;
+}
+
+.funeral-cover:hover{
+  transform: scale(1.02) rotateX(5deg);
+}
+.cover {
+  background-color: #ffffff31;
+  padding: 0.5rem;        
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem; 
+  color: #ffffffdc;
+}
+
+.cashback {
+  background-color: #70ff8f;
+  padding: 0.25rem;        
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;   
+  color: #01272e;
+}
+
+.top-part {
+  background-color: #26323f;
+  border-radius: 0.5rem;  
+  padding: 0.5rem;         
+  color: #ccc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.top-part h3 {
+  font-size: 2.5rem;        
+}
+
+.top-part div {
+  font-size: 0.9rem;        
+}
+
+.flex-container .flex-item div h3 {
+  text-align: center;
+}
+
+.flex-container .flex-item div div h4 {
+  text-align: center;
+  font-size: 1rem;          /* you might want to reduce if these are large */
+}
+
+.flex-container .flex-item div div h5 {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.grid-subcontainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0.5rem;          
+  gap: 0.5rem;              /* if you want spacing */
+}
+
+.grid-subcontainer .grid-subitem {
+  padding: 0.5rem;          
+  align-items: center;
+  justify-content: center;
+}
+
+.left-part,
+.right-part {
+  margin: 0.5rem;       
+  background-color: #879cb470;
+  text-align: center;
+  border-radius: 0.5rem;  
+  border-top: 1rem solid #879cb4; 
+}
+
+.left-part ul li,
+.felx-subitem-child ul li {
+  list-style: none;
+}
+
+.left-part p,
+.felx-subitem-child p {
+  font-size: 0.9rem;   
+}
+
+.felx-subitem-child p strong {
+  font-size: 1rem;  
+}
+
+.grid-subcontainer-child {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+/*BRONZE DOVE STYLES*/
+.Bronze-top-part h3{
+  font-size: 2rem;
+}
+
+.Bronze-top-part{
+  background-color: #cd7f32;
+  color:white;
+  box-shadow: 0 2rem blanchedalmond;
+}
+
+/*SILVER DOVE STYLES*/
+.Silver-top-part h3{
+  font-size: 2rem;
+}
+
+.Silver-top-part{
+  background-color: #c0c0c0;
+  background-image: url("./images/silver.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:#01272e;
+  box-shadow: 0 2rem rgb(226, 226, 226);
+}
+
+.Silver-top-part .cover{
+  color:#01272e;
+}
+
+/*GOLD DOVE STYLES*/
+.Gold-top-part h3{
+  font-size: 2rem;
+}
+
+.Gold-top-part{
+  background-color: #ffd700;
+  background-image: url("./images/gold.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:#01272e;
+  box-shadow: 0 2rem rgb(249, 255, 217);
+}
+
+.Gold-top-part .cover{
+  color:#01272e;
+}
+
+/*PLATINUM DOVE STYLES*/
+.Platinum-top-part h3{
+  font-size: 2rem;
+}
+
+.Platinum-top-part{
+  background-color: #e7e7e7;
+  background-image: url("./images/platnum.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  box-shadow: 0 2rem rgb(249, 255, 217);
+}
+
+.Platinum-top-part .cover{
+  color:#01272e;
+  background-color: rgba(255, 255, 255, 0.884);
+}
+
+
+/* — Wrapper holds container + buttons — */
+.scroll-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* — The horizontally scrollable area — */
+.scroll-container {
+  display: flex;                   /* lay out children in a row */
+  overflow-x: auto;                /* enable horizontal scroll */
+  scroll-behavior: smooth;         /* animate JS-driven scroll */
+  gap: 1rem;                       /* spacing between sections */
+  padding: 1rem 0;                 
+  width: 100%;                     
+}
+
+/* — Style each section panel — */
+.scroll-container section {
+  flex: 0 0 300px;                 /* fixed width per section */
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* — Prev/Next buttons — */
+.scroll-btn {
+  background: rgba(0,0,0,0.6);
+  color: white;
+  border: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.scroll-btn.prev {
+  margin-right: 0.5rem;
+}
+
+.scroll-btn.next {
+  margin-left: 0.5rem;
+}
+
+/*socialmediaicons*/
+.social-icons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.social-icons a img {
+  width: 3rem;
+  height: 3rem;
+  padding:0.5rem;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  border-radius: 50%;
+  background-color:rgba(255, 255, 255, 0.205);
+}
+
+.social-icons a img:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+
+footer {
+  background: #2e2e2e;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* === Media Queries === */
+@media (max-width: 768px) {
+  /* Stack nav links */
+
+    .menu-toggle {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+    background: #ccc;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+  }
+
+
+  nav ul {
+    flex-direction: column;
+    display: none;
+    width: 100%;
+    background: #ccc;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  .funeral-cover {
+  margin-left:2rem;     
+}
+
+  
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 2rem;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    padding: 3rem 1rem;
+  }
+}

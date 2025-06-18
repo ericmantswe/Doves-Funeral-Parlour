@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Doves Funeral Parlour offers compassionate and professional funeral services in Botswana. We specialize in funeral planning, burial, cremation, and memorial services that honor your loved ones with dignity and care." />
+
+  <title>Doves Funeral Parlour</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <img src="./images/doves logo.jpg" class="Doves-nav-logo"/>
+      <nav id="navbar">
+        <ul>
+          <li><a href="index.html" class="active-tab">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="contacts.html">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    
+  <section id="home" class="hero">
+    <div class="container hero-txt">
+      <h2>Giving Comfort, Taking Care</h2>
+      <br/><br/>
+      <p><strong>--Serving families with compassion, dignity, profetionalism and care during their time of need--</strong></strong></p>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-items">
+        <div class="service-item">
+          <img src="./images/freepik__funeral_planning_we_assist_with_every_step_of.png" alt="image missing error!" class="service-icon" />
+          <h3>Funeral Planning</h3>
+          <p>We assist with every step of the process, from documentation to final rites.</p>
+        </div>
+        <div class="service-item">
+          <img src="./images/freepik__burial_&_cremation_.png" alt="image missing error!" class="service-icon" />
+          <h3>Burial & Cremation</h3>
+          <p>Personalized options respecting all faiths and traditions.</p>
+        </div>
+        <div class="service-item">
+          <img src="./images/freepik__memorial_services_.png" alt="image missing error!" class="service-icon" />
+          <h3>Memorial Services</h3>
+          <p>Honor your loved ones with customized tributes and ceremonies.</p>
+        </div>
+        <nav>
+          <div class="service-item MORESERVICES">
+          <a href="./Services.html"><h3 style=" color:beige">More Services</h3></a> 
+        </div>
+        </nav>
+        
+        
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2>What Families Say About Us</h2>
+    <div class="testimonial-items">
+      <div class="testimonial-item">
+        <p>"Peaceful Rest guided us with such kindness during a very painful time. We are deeply grateful for their support."</p>
+        <h4>- Margaret L.</h4>
+      </div>
+    <div class="testimonial-item">
+      <p>"Everything was handled professionally and with grace. We couldn't have asked for a more respectful farewell."</p>
+      <h4>- David & Elaine K.</h4>
+    </div>
+      <div class="testimonial-item">
+        <p>"The service was beautiful and comforting. Thank you for helping us say goodbye with dignity."</p>
+        <h4>- The Ndlovu Family</h4>
+      </div>
+     </div>
+    </div>
+  </section>
+
+  <section class="trust-us">
+    <div class="container">
+      <h2>You Can Trust Us</h2>
+      <div class="Trust-grid">
+        <div>
+          <img src="./images/families served.png" class="trust-item" />
+        </div>
+        <div>
+          <img src="./images/Customer stisfaction rate.png" class="trust-item"/>
+        </div>
+        <div>
+          <img src="./images/years of service.png" class="trust-item"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us Now</h2>
+
+      <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+
+        <input type="hidden" name="access_key" value="babf6ce9-3446-4f80-9529-d7f503c74b89">
+
+        <input type="text" placeholder="Your Full Name" name="name" required />
+        <input type="email" placeholder="Your Email Address" name="email" required />
+        <textarea placeholder="Your Message" name="message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      
+      <div class="map-container">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3626.9134081468383!2d25.917064199999995!3d-24.6266692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebb5b3dd5db28e3%3A0x54dc71b623e9c81!2sDoves%20Funeral%20Parlour!5e0!3m2!1sen!2sbw!4v1749908942238!5m2!1sen!2sbw" 
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      `</iframe>
+      </div>
+    </div>
+  </section>
+  </main>
+
+ 
+  <footer>
+    <div class="container">
+      <p><h3>&copy; 2025 Doves Funeral Parlour. All rights reserved.</h3></p>
+      <div class="social-icons">
+        <a href="https://web.facebook.com/profile.php?id=61561919110280" target="_blank" aria-label="Facebook">
+          <img src="./images/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://twitter.com/yourpage" target="_blank" aria-label="Twitter">
+          <img src="./images/twitter.png" alt="Twitter">
+        </a>
+      </div>
+      <p>Web Page Made by <strong>LegendERStudios</strong></p>
+      <p>For webpage building services contact LegendERStudios at:+267-72326496</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

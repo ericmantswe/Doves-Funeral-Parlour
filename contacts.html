@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Doves Funeral Parlour</title>
+  <link rel="stylesheet" href="./contacts.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <img src="./images/doves logo.jpg" class="Doves-nav-logo"/>
+      <nav id="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="Services.html">Services</a></li>
+          <li><a href="contacts.html" class="active-tab">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    
+  <section class="Our-contacts">
+    <div class="container">
+      <h1>Our contacts</h1>
+      <hr aria-hidden="true" />
+    </div>
+  </section>
+
+  <section>
+    <div class="flex-container">
+      <div class="flex-item">
+        <h3>Visit our office</h3>
+        <ul>
+          <li>Plot 5655</li>
+          <li>Legolo Road Broadhurst Industral</li>
+          <li>Gaborone</li>
+          <li>Botswana</li>
+        </ul>
+      </div>
+      <div class="flex-item">
+        <h3>Call Us</h3>
+        <ul>
+          <li>Gaborone-tel :+267-390 2822 / 393 2509 / 10</li>
+          <li>Mahalapye-tel:+267-471 4703</li>
+          <li>Kang-tel:+267-651 7254 / 57</li>
+        </ul>
+      </div>
+      <div class="flex-item">
+        <h3>Email Us</h3>
+        <ul>
+          <li>cecilsoutter@yahoo.com</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Fill the form below to send us a quick message</h2>
+    <div class="container">
+      <h2>Contact Us Now</h2>
+
+      <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+
+        <input type="hidden" name="access_key" value="babf6ce9-3446-4f80-9529-d7f503c74b89">
+
+        <input type="text" placeholder="Your Full Name" name="name" required />
+        <input type="email" placeholder="Your Email Address" name="email" required />
+        <textarea placeholder="Your Message" name="message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      
+      <div class="map-container">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3626.9134081468383!2d25.917064199999995!3d-24.6266692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebb5b3dd5db28e3%3A0x54dc71b623e9c81!2sDoves%20Funeral%20Parlour!5e0!3m2!1sen!2sbw!4v1749908942238!5m2!1sen!2sbw" 
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      `</iframe>
+      </div>
+    </div>
+  </section>
+
+  </main>
+  <footer>
+    <div class="container">
+      <p><h3>&copy; 2025 Doves Funeral Parlour. All rights reserved.</h3></p>
+      <div class="social-icons">
+        <a href="https://web.facebook.com/profile.php?id=61561919110280" target="_blank" aria-label="Facebook">
+          <img src="./images/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://twitter.com/yourpage" target="_blank" aria-label="Twitter">
+          <img src="./images/twitter.png" alt="Twitter">
+        </a>
+      </div>
+      <p>Web Page Made by <strong>LegendERStudios</strong></p>
+      <p>For webpage building services contact LegendERStudios at:+267-72326496</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
